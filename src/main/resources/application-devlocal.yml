@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url : jdbc:postgresql://localhost:5432/school
+    username: postgres
+    password: tsip123!@#
+
+  flyway:
+    url: jdbc:postgresql://localhost:5432/school
+    schemas: svk
+    user: "postgres"
+    password: "tsip123!@#"
+    baselineOnMigrate: true
